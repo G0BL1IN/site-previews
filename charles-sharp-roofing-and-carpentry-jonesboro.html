@@ -3,199 +3,280 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Charles Sharp Roofing and Carpentry | Roofing in Jonesboro</title>
-<meta name="description" content="Charles Sharp Roofing and Carpentry: roof replacement, repairs and storm damage in Jonesboro and nearby. Rated 4.4 stars by 51 customers on Google.">
+<title>Charles Sharp Roofing and Carpentry | Roofing in Jonesboro, AR</title>
+<meta name="description" content="Charles Sharp Roofing and Carpentry: roof repair, roof replacement and storm damage in Jonesboro. Rated 4.4 by 51 customers on Google.">
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#14181f;--muted:#5b6472;--line:#e6e2da;--paper:#faf8f4;--accent:#1d4ed8;--accent-dark:#1e40af;--slate:#1f2a37}
+:root{
+  --dark:#22303A;--ink:#2C3A44;--muted:#5A6A75;--line:#D7DEE3;--tint:#F1F4F6;--white:#fff;
+  --accent:#B23A2B;--accent-dark:#8F2E22;--star:#E5A00D;
+  --head:'Archivo', system-ui, sans-serif;--body:'Archivo', system-ui, sans-serif;
+}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{font-family:Inter,system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased}
-a{color:inherit;text-decoration:none}
-.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
-h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.1;letter-spacing:-.01em}
-.demo-bar{background:#111;color:#f5f5f5;font-size:13px;text-align:center;padding:8px 16px}
-.demo-bar b{color:#ffd166}
-header{position:sticky;top:0;z-index:20;background:rgba(250,248,244,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
-.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px}
-.logo svg{width:34px;height:34px}
-.nav-links{display:flex;gap:28px;font-size:15px;color:var(--muted)}
-.nav-links a:hover{color:var(--ink)}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:10px;font-weight:600;font-size:15px;transition:.2s}
-.btn-primary{background:var(--accent);color:#fff;box-shadow:0 6px 18px -6px var(--accent)}
-.btn-primary:hover{background:var(--accent-dark);transform:translateY(-1px)}
-.btn-ghost{border:1.5px solid rgba(255,255,255,.4);color:#fff}
-.btn-ghost:hover{background:rgba(255,255,255,.1)}
-.hero{position:relative;background:var(--slate);color:#fff;overflow:hidden}
-.hero::before{content:"";position:absolute;inset:0;background:
- radial-gradient(1200px 500px at 85% -10%,color-mix(in srgb,var(--accent) 45%,transparent),transparent 60%),
- linear-gradient(180deg,#1f2a37 0%,#111821 100%)}
-.hero-grid{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;padding-top:96px;padding-bottom:110px}
-.badge{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);padding:8px 14px;border-radius:999px;font-size:14px}
-.stars{color:#ffc94d;letter-spacing:2px}
-.hero h1{font-size:clamp(40px,5.4vw,66px);margin:22px 0 20px}
-.hero h1 em{font-style:normal;color:color-mix(in srgb,var(--accent) 55%,#fff)}
-.hero p.lead{font-size:19px;color:#c9d1db;max-width:540px}
-.hero-ctas{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap}
-.hero-points{display:flex;gap:26px;margin-top:38px;color:#aeb8c4;font-size:14px;flex-wrap:wrap}
-.hero-points span::before{content:"✓ ";color:#7ee2a8;font-weight:700}
-.quote-card{background:#fff;color:var(--ink);border-radius:18px;padding:30px;box-shadow:0 30px 60px -20px rgba(0,0,0,.5)}
-.quote-card h3{font-size:24px;margin-bottom:6px}
-.quote-card p{color:var(--muted);font-size:14px;margin-bottom:18px}
-.field{margin-bottom:12px}
-.field input,.field select{width:100%;padding:13px 14px;border:1.5px solid var(--line);border-radius:10px;font:inherit;font-size:15px;background:#fff}
-.field input:focus,.field select:focus{outline:none;border-color:var(--accent)}
-.quote-card .btn{width:100%;justify-content:center;margin-top:6px}
-.form-note{font-size:12px;color:var(--muted);text-align:center;margin-top:10px}
-.form-done{display:none;text-align:center;padding:30px 0;color:var(--ink)}
-.roofline{position:absolute;bottom:-1px;left:0;width:100%;height:70px}
-section{padding:96px 0}
-.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:700;color:var(--accent)}
-.section-head{max-width:640px;margin-bottom:52px}
-.section-head h2{font-size:clamp(32px,3.6vw,46px);margin:12px 0 14px}
-.section-head p{color:var(--muted);font-size:17px}
-.services{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-.svc{background:#fff;border:1px solid var(--line);border-radius:16px;padding:30px;transition:.25s}
-.svc:hover{transform:translateY(-4px);box-shadow:0 22px 40px -24px rgba(20,24,31,.35);border-color:transparent}
-.svc .ic{width:48px;height:48px;border-radius:12px;display:grid;place-items:center;background:color-mix(in srgb,var(--accent) 12%,#fff);color:var(--accent);margin-bottom:18px}
-.svc h3{font-size:21px;margin-bottom:8px}
-.svc p{color:var(--muted);font-size:15px}
-.proof{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.proof-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:64px;align-items:center}
-.big-rating{font-family:Fraunces,serif;font-size:96px;line-height:1}
-.big-rating small{font-size:28px;color:var(--muted)}
-.proof .stars{font-size:26px}
-.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-.stat{border:1px solid var(--line);border-radius:14px;padding:24px;background:var(--paper)}
-.stat b{display:block;font-family:Fraunces,serif;font-size:34px}
-.stat span{color:var(--muted);font-size:14px}
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:s}
-.step{position:relative;padding-top:58px}
-.step::before{counter-increment:s;content:"0" counter(s);position:absolute;top:0;font-family:Fraunces,serif;font-size:40px;color:color-mix(in srgb,var(--accent) 35%,#fff)}
-.step h3{font-size:20px;margin-bottom:6px}
-.step p{color:var(--muted);font-size:15px}
-.area{background:var(--slate);color:#fff;border-radius:22px;padding:56px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
-.area h2{font-size:38px;margin-bottom:12px}
-.area p{color:#c9d1db}
-.chips{display:flex;flex-wrap:wrap;gap:10px}
-.chips span{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);padding:8px 14px;border-radius:999px;font-size:14px}
-.cta{text-align:center}
-.cta h2{font-size:clamp(34px,4vw,52px);margin-bottom:14px}
-.cta p{color:var(--muted);font-size:18px;margin-bottom:30px}
-.cta .phone{display:block;font-family:Fraunces,serif;font-size:40px;margin:8px 0 26px;color:var(--accent)}
-footer{border-top:1px solid var(--line);padding:34px 0;color:var(--muted);font-size:14px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{font-family:var(--body);color:var(--ink);background:var(--white);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img,svg{display:block}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--head);color:var(--dark);line-height:1.08;font-weight:800;font-stretch:116%;letter-spacing:-.01em}
+h2{font-size:clamp(28px,3.4vw,40px);margin-bottom:14px}
+.lede{color:var(--muted);max-width:60ch}
+.ico{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+
+/* preview notice */
+.notice{background:var(--dark);color:#E9EEF1;font-size:14px;text-align:center;padding:9px 16px}
+.notice strong{color:#fff}
+
+/* header */
+header{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;height:72px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-family:var(--head);font-weight:700;font-size:19px;color:var(--dark);line-height:1.15}
+.mark{width:40px;height:40px;border-radius:9px;background:var(--accent);color:#fff;display:grid;place-items:center;flex:none}
+.mark .ico{width:24px;height:24px;stroke-width:2}
+nav{display:flex;gap:28px;font-size:15px}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--dark)}
+.call{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;color:var(--dark);white-space:nowrap}
+.call .ico{color:var(--accent)}
+.call small{display:block;font-weight:500;font-size:12px;color:var(--muted);line-height:1.1}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:8px;padding:15px 24px;font-weight:700;font-size:16px;text-decoration:none;border:0;cursor:pointer;font-family:var(--body);transition:background .15s}
+.btn-main{background:var(--accent);color:#fff}
+.btn-main:hover{background:var(--accent-dark)}
+.btn-line{background:transparent;color:var(--dark);border:2px solid var(--line)}
+.btn-line:hover{border-color:var(--dark)}
+
+/* hero */
+.hero{position:relative;background:var(--tint);overflow:hidden;border-bottom:1px solid var(--line)}
+.hero-art{position:absolute;inset:0;pointer-events:none}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center;padding-top:72px;padding-bottom:80px}
+.hero h1{font-size:clamp(36px,5vw,60px);margin-bottom:18px;max-width:16ch}
+.hero .lede{font-size:19px;margin-bottom:26px}
+.rating{display:flex;align-items:center;gap:12px;margin-bottom:28px;font-size:15px;color:var(--muted)}
+.stars{display:flex;gap:2px;color:var(--star)}
+.stars svg{width:20px;height:20px;fill:currentColor}
+.rating b{color:var(--dark);font-size:17px}
+.ctas{display:flex;gap:12px;flex-wrap:wrap}
+
+.quote{background:#fff;border:1px solid var(--line);border-radius:14px;padding:28px;box-shadow:0 24px 48px -28px rgba(20,35,45,.35)}
+.quote h2{font-size:26px;margin-bottom:6px}
+.quote p.small{color:var(--muted);font-size:15px;margin-bottom:18px}
+.quote label{display:block;font-size:14px;font-weight:600;color:var(--dark);margin-bottom:6px}
+.quote input,.quote select{width:100%;padding:13px 14px;border:1.5px solid var(--line);border-radius:8px;font:inherit;font-size:16px;margin-bottom:14px;background:#fff;color:var(--ink)}
+.quote input:focus,.quote select:focus{outline:none;border-color:var(--accent)}
+.quote .btn{width:100%;margin-top:4px}
+.assure{display:flex;flex-direction:column;gap:8px;margin-top:16px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+.assure span{display:flex;align-items:center;gap:8px}
+.assure .ico{width:18px;height:18px;color:var(--accent)}
+.done{display:none;text-align:center;padding:24px 0}
+.done .ico{width:44px;height:44px;margin:0 auto 12px;color:var(--accent)}
+
+/* sections */
+section{padding:88px 0}
+.services{display:grid;grid-template-columns:1fr 1fr;gap:0 56px;margin-top:40px;border-top:1px solid var(--line)}
+.svc{display:flex;gap:18px;padding:24px 0;border-bottom:1px solid var(--line)}
+.svc .tile{width:48px;height:48px;border-radius:10px;background:var(--tint);color:var(--accent);display:grid;place-items:center;flex:none}
+.svc h3{font-size:20px;margin-bottom:4px}
+.svc p{color:var(--muted);font-size:16px}
+
+.feature{background:var(--tint);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.feature-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.feature-grid.stack{grid-template-columns:1fr;gap:0}
+
+/* before/after */
+.compare{position:relative;aspect-ratio:4/3;border-radius:14px;overflow:hidden;border:1px solid var(--line);user-select:none}
+.compare svg{position:absolute;inset:0;width:100%;height:100%}
+.compare .after{clip-path:inset(0 0 0 var(--pos,50%))}
+.compare .handle{position:absolute;top:0;bottom:0;left:var(--pos,50%);width:3px;background:#fff;transform:translateX(-50%);box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+.compare .knob{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:44px;height:44px;border-radius:50%;background:#fff;display:grid;place-items:center;color:var(--dark);box-shadow:0 4px 14px rgba(0,0,0,.25)}
+.compare input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize}
+.compare .tag{position:absolute;bottom:14px;padding:5px 12px;border-radius:6px;font-size:14px;font-weight:700;background:rgba(255,255,255,.92);color:var(--dark)}
+.compare .tag.l{left:14px}.compare .tag.r{right:14px}
+.hint{font-size:14px;color:var(--muted);margin-top:10px}
+
+/* photo slots */
+.photos{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:32px}
+.slot{aspect-ratio:4/3;border-radius:12px;border:2px dashed var(--line);background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:var(--muted);font-size:15px;text-align:center;padding:16px}
+.slot .ico{width:32px;height:32px;color:var(--accent)}
+
+/* steps (a real sequence, so numbered) */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:40px;counter-reset:s}
+.step{border-top:3px solid var(--accent);padding-top:18px}
+.step::before{counter-increment:s;content:counter(s);display:block;font-family:var(--head);font-weight:700;font-size:15px;color:var(--accent);margin-bottom:6px}
+.step h3{font-size:19px;margin-bottom:6px}
+.step p{color:var(--muted);font-size:16px}
+
+/* reviews + area */
+.proof{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:8px}
+.panel{border:1px solid var(--line);border-radius:14px;padding:32px}
+.big{font-family:var(--head);font-weight:800;font-size:64px;line-height:1;color:var(--dark)}
+.big small{font-size:24px;color:var(--muted);font-weight:600}
+.panel .stars{margin:10px 0 12px}
+.panel p{color:var(--muted)}
+.towns{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.towns span{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:15px;color:var(--dark)}
+.towns .ico{width:16px;height:16px;color:var(--accent)}
+
+/* final call */
+.final{background:var(--dark);color:#DCE4E8;text-align:center}
+.final h2{color:#fff}
+.final .lede{margin:0 auto 28px;color:#C3CED4}
+.final .phone{display:inline-block;font-family:var(--head);font-weight:800;font-size:clamp(34px,5vw,52px);color:#fff;text-decoration:none;margin-bottom:24px}
+.final .btn-line{color:#fff;border-color:rgba(255,255,255,.35)}
+
+footer{padding:32px 0 36px;font-size:14px;color:var(--muted);border-top:1px solid var(--line)}
 .foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
-.mobile-call{display:none}.nav .btn .short{display:none}
+.foot b{color:var(--dark)}
+
+.mobile-call{display:none}
 @media(max-width:900px){
- .hero-grid,.proof-grid,.area{grid-template-columns:1fr}
- .services{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}
- .nav-links{display:none}.hero-grid{padding-top:56px;padding-bottom:90px}.nav .btn .full{display:none}.nav .btn .short{display:inline}.logo{font-size:16px}.area{padding:36px}
- .mobile-call{display:flex;position:fixed;bottom:14px;left:14px;right:14px;z-index:30;justify-content:center}
- footer{padding-bottom:90px}
+  nav,.call small,.hero-art{display:none}
+  .hero-grid,.feature-grid,.proof{grid-template-columns:1fr}
+  .hero-grid{padding-top:44px;padding-bottom:56px;gap:36px}
+  .services{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .photos{grid-template-columns:1fr 1fr}
+  section{padding:64px 0}
+  .mobile-call{display:flex;position:fixed;left:12px;right:12px;bottom:12px;z-index:40}
+  footer{padding-bottom:96px}
+  .brand{font-size:17px}
 }
-@media(max-width:560px){.services,.steps,.stats{grid-template-columns:1fr}.big-rating{font-size:72px}}
+@media(max-width:560px){
+  .steps,.photos{grid-template-columns:1fr}
+  .call-num{display:none}
+  .panel{padding:24px}
+}
 </style>
 </head>
 <body>
-<div class="demo-bar">This is a <b>free design preview</b> made for Charles Sharp Roofing and Carpentry by Kris. It isn't live and isn't listed on Google.</div>
+<div class="notice">This is a <strong>free design preview</strong> made for Charles Sharp Roofing and Carpentry by Kris. It isn't live and isn't listed on Google.</div>
 
-<header><div class="wrap nav">
- <a href="#" class="logo">
-  <svg viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="var(--accent)"/><path d="M8 22 20 11l12 11" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 20v10h14V20" stroke="#fff" stroke-width="3" stroke-linejoin="round"/></svg>
-  Charles Sharp Roofing and Carpentry
- </a>
- <nav class="nav-links"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#process">How it works</a><a href="#area">Service area</a></nav>
- <a href="tel:+18709354278" class="btn btn-primary">📞 <span class="full">(870) 935-4278</span><span class="short">Call</span></a>
-</div></header>
+<header>
+ <div class="wrap bar">
+  <a class="brand" href="#">
+   <span class="mark"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 12.5 12 5l9.5 7.5"/><path d="M5.5 10.5V19h13v-8.5"/></svg></span>Charles Sharp Roofing and Carpentry
+  </a>
+  <nav aria-label="Main"><a href="#services">Services</a><a href="#work">Our work</a><a href="#reviews">Reviews</a><a href="#area">Service area</a></nav>
+  <a class="call" href="tel:+18709354278"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span><small>Call for a free estimate</small><span class="call-num">(870) 935-4278</span></span></a>
+ </div>
+</header>
 
+<main>
 <section class="hero" style="padding:0">
+ <div class="hero-art" aria-hidden="true"><svg width="100%" height="100%" preserveAspectRatio="xMaxYMid slice">
+<defs>
+ <pattern id="shingle" width="48" height="28" patternUnits="userSpaceOnUse">
+  <g fill="none" stroke="var(--accent)" stroke-width="1.2" opacity=".55">
+   <path d="M0 0h24v12a12 12 0 0 1-24 0z"/><path d="M24 0h24v12a12 12 0 0 1-24 0z"/>
+   <path d="M-12 14h24v12a12 12 0 0 1-24 0z"/><path d="M12 14h24v12a12 12 0 0 1-24 0z"/><path d="M36 14h24v12a12 12 0 0 1-24 0z"/>
+  </g>
+ </pattern>
+ <linearGradient id="fadeL" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".9"/></linearGradient>
+ <mask id="fadeMask"><rect width="100%" height="100%" fill="url(#fadeL)"/></mask>
+</defs>
+<rect width="100%" height="100%" fill="url(#shingle)" mask="url(#fadeMask)"/>
+</svg></div>
  <div class="wrap hero-grid">
   <div>
-   <span class="badge"><span class="stars">★★★★★</span> 4.4 from 51 Google reviews</span>
-   <h1>Jonesboro's roofers who <em>show up</em> and do it right.</h1>
-   <p class="lead">Roof replacements, leak repairs and storm-damage claims for homeowners across Jonesboro, AR. Free inspections and clear written quotes, with no pressure.</p>
-   <div class="hero-ctas">
-    <a href="#quote" class="btn btn-primary">Get my free inspection →</a>
-    <a href="tel:+18709354278" class="btn btn-ghost">Call (870) 935-4278</a>
+   <h1>Roof repair and replacement in Jonesboro, AR</h1>
+   <p class="lede">Charles Sharp Roofing and Carpentry fixes leaks, replaces worn-out roofs and handles storm damage for homes around Jonesboro.</p>
+   <div class="rating">
+    <span class="stars" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.6l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.5l-5.9 3.1 1.2-6.5L2.5 9.5l6.6-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.6l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.5l-5.9 3.1 1.2-6.5L2.5 9.5l6.6-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.6l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.5l-5.9 3.1 1.2-6.5L2.5 9.5l6.6-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.6l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.5l-5.9 3.1 1.2-6.5L2.5 9.5l6.6-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.6l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.5l-5.9 3.1 1.2-6.5L2.5 9.5l6.6-.9z"/></svg></span>
+    <span><b>4.4</b> from 51 Google reviews</span>
    </div>
-   <div class="hero-points"><span>Free roof inspection</span><span>Written quotes</span><span>Insurance claim help</span></div>
+   <div class="ctas">
+    <a class="btn btn-main" href="#estimate">Get a free estimate</a>
+    <a class="btn btn-line" href="tel:+18709354278"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call (870) 935-4278</a>
+   </div>
   </div>
-  <form class="quote-card" id="quote" onsubmit="event.preventDefault();this.querySelector('.form-body').style.display='none';this.querySelector('.form-done').style.display='block';">
-   <div class="form-body">
-    <h3>Free roof inspection</h3>
-    <p>Tell us a little about your roof and we'll get back to you, usually the same day.</p>
-    <div class="field"><input placeholder="Your name" required></div>
-    <div class="field"><input placeholder="Phone number" type="tel" required></div>
-    <div class="field"><input placeholder="Street address or ZIP/postcode"></div>
-    <div class="field"><select><option>What do you need?</option><option>Leak or repair</option><option>Full replacement</option><option>Storm / hail damage</option><option>Inspection only</option></select></div>
-    <button class="btn btn-primary" type="submit">Request my inspection</button>
-    <div class="form-note">No spam, ever. We'll only use your details to reply to you.</div>
+
+  <form class="quote" id="estimate" onsubmit="event.preventDefault();this.querySelector('.fields').style.display='none';this.querySelector('.done').style.display='block';">
+   <div class="fields">
+    <h2>Free estimate</h2>
+    <p class="small">Three quick details and we'll call you back with a price.</p>
+    <label for="f-name">Your name</label>
+    <input id="f-name" autocomplete="name" required>
+    <label for="f-phone">Phone number</label>
+    <input id="f-phone" type="tel" autocomplete="tel" required>
+    <label for="f-job">What do you need?</label>
+    <select id="f-job"><option>Leak or repair</option><option>Roof replacement</option><option>Storm or hail damage</option><option>Roof inspection</option><option>Gutters</option><option>Something else</option></select>
+    <button class="btn btn-main" type="submit">Request my estimate</button>
+    <div class="assure">
+     <span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2l2.6 5.4 5.9.8-4.3 4.1 1.1 5.8L12 16.5l-5.3 2.8 1.1-5.8-4.3-4.1 5.9-.8z"/></svg>Rated 4.4 by 51 customers on Google</span>
+     <span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Local to Jonesboro, AR</span>
+    </div>
    </div>
-   <div class="form-done"><h3>Thanks, we've got it ✓</h3><p style="margin-top:8px">In the live version, this request goes straight to Charles Sharp Roofing and Carpentry's phone and inbox.</p></div>
+   <div class="done"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.8 2.8L16 10"/></svg><h2>Request received</h2><p class="small">In the live site, this goes straight to Charles Sharp Roofing and Carpentry's phone and inbox.</p></div>
   </form>
  </div>
- <svg class="roofline" viewBox="0 0 1440 70" preserveAspectRatio="none"><path d="M0 70V40l120-30 120 30 120-30 120 30 120-30 120 30 120-30 120 30 120-30 120 30 120-30 120 30v30z" fill="var(--paper)"/></svg>
 </section>
 
-<section id="services"><div class="wrap">
- <div class="section-head"><span class="eyebrow">What we do</span><h2>Every roofing job, done properly the first time.</h2><p>From a single slipped shingle to a full tear-off, you get the same crew, the same care and a clean site when we leave.</p></div>
- <div class="services">
-  <div class="svc"><div class="ic">🏠</div><h3>Roof replacement</h3><p>Full tear-off and new roof with quality materials, proper ventilation and a tidy finish.</p></div>
-  <div class="svc"><div class="ic">💧</div><h3>Leak repairs</h3><p>We find where the water is really getting in and fix the cause, not just the stain.</p></div>
-  <div class="svc"><div class="ic">⛈️</div><h3>Storm &amp; hail damage</h3><p>Fast tarping, photo documentation and help working with your insurance company.</p></div>
-  <div class="svc"><div class="ic">🔍</div><h3>Roof inspections</h3><p>An honest report with photos for buyers, sellers, or just peace of mind.</p></div>
-  <div class="svc"><div class="ic">🌧️</div><h3>Gutters &amp; flashing</h3><p>New gutters, guards and flashing that keep water away from your home.</p></div>
-  <div class="svc"><div class="ic">🏢</div><h3>Flat &amp; commercial</h3><p>Durable flat-roof systems for garages, extensions and small commercial buildings.</p></div>
+<section id="services">
+ <div class="wrap">
+  <h2>Roofing services</h2>
+  <p class="lede">From one missing shingle to a full replacement, with a clear written price before any work starts.</p>
+  <div class="services"><div class="svc"><div class="tile"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.5 12 3l9 6.5"/><path d="M12 11.5c-2 2.6-3.3 4.5-3.3 6.1a3.3 3.3 0 0 0 6.6 0c0-1.6-1.3-3.5-3.3-6.1z"/></svg></div><div><h3>Leak repair</h3><p>Find where the water gets in and fix the cause, not just the stain.</p></div></div><div class="svc"><div class="tile"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 12.5 12 5l9.5 7.5"/><path d="M5.5 10.5V19h13v-8.5"/></svg></div><div><h3>Roof replacement</h3><p>Full tear-off and new roof, with the old material hauled away.</p></div></div><div class="svc"><div class="tile"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 14.5h10a4 4 0 0 0 .4-8 6 6 0 0 0-11.3 1.6A3.3 3.3 0 0 0 7 14.5z"/><path d="M9 17.5l-1 2.5M13 17.5l-1 2.5M17 17.5l-1 2.5"/></svg></div><div><h3>Storm and hail damage</h3><p>Temporary tarping, photos of the damage and help with your insurance claim.</p></div></div><div class="svc"><div class="tile"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20.5 20.5-4.9-4.9"/></svg></div><div><h3>Roof inspections</h3><p>A clear report with photos, for buyers, sellers or peace of mind.</p></div></div><div class="svc"><div class="tile"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18"/><path d="M4 6v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6"/><path d="M17 11v9"/></svg></div><div><h3>Gutters</h3><p>New gutters and guards that keep water away from your walls.</p></div></div><div class="svc"><div class="tile"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="4.5" y="3" width="15" height="18" rx="1"/><path d="M9 7.5h1.5M13.5 7.5H15M9 11.5h1.5M13.5 11.5H15M9 15.5h1.5M13.5 15.5H15"/></svg></div><div><h3>Commercial roofs</h3><p>Flat and low-slope roofs for shops, offices and rentals.</p></div></div></div>
  </div>
-</div></section>
+</section>
 
-<section class="proof" id="reviews"><div class="wrap proof-grid">
- <div>
-  <span class="eyebrow">Trusted locally</span>
-  <div class="big-rating" style="margin-top:14px">4.4<small> / 5</small></div>
-  <div class="stars" style="margin:8px 0 12px">★★★★★</div>
-  <p style="color:var(--muted);font-size:17px">Rated by <b style="color:var(--ink)">51 homeowners</b> on Google. In the live site, your real reviews appear here automatically.</p>
+<section class="feature" id="work">
+ <div class="wrap feature-grid stack">
+  <div>
+   <h2>Real roofs, real photos</h2>
+   <p class="lede">Homeowners trust what they can see. On your live site, these spaces show photos of roofs you&#x27;ve finished around Jonesboro.</p>
+  </div>
+  <div><div class="photos"><div class="slot"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg><span>Your best roof replacement</span></div><div class="slot"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg><span>A before-and-after repair</span></div><div class="slot"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg><span>Your crew on the job</span></div></div></div>
  </div>
- <div class="stats">
-  <div class="stat"><b>Free</b><span>No-obligation inspections</span></div>
-  <div class="stat"><b>Same day</b><span>Typical response time</span></div>
-  <div class="stat"><b>Written</b><span>Clear, itemised quotes</span></div>
-  <div class="stat"><b>Local</b><span>Based in Jonesboro</span></div>
+</section>
+
+<section>
+ <div class="wrap">
+  <h2>How it works</h2>
+  <div class="steps"><div class="step"><h3>Call or request an estimate</h3><p>Tell us what&#x27;s going on with your roof.</p></div><div class="step"><h3>We inspect the roof</h3><p>We go up, look properly and show you photos.</p></div><div class="step"><h3>You get a written price</h3><p>Everything included, so there are no surprises.</p></div><div class="step"><h3>We do the work</h3><p>On schedule, with the yard cleaned up after.</p></div></div>
  </div>
-</div></section>
+</section>
 
-<section id="process"><div class="wrap">
- <div class="section-head"><span class="eyebrow">How it works</span><h2>Simple from first call to final clean-up.</h2></div>
- <div class="steps">
-  <div class="step"><h3>Book a visit</h3><p>Call or fill in the form. We'll arrange a time that suits you.</p></div>
-  <div class="step"><h3>Free inspection</h3><p>We check your roof and show you photos of what we found.</p></div>
-  <div class="step"><h3>Clear quote</h3><p>A written price with everything included and no surprises.</p></div>
-  <div class="step"><h3>Job done right</h3><p>Our crew finishes on schedule and leaves your property spotless.</p></div>
+<section id="reviews" style="padding-top:0">
+ <div class="wrap proof">
+  <div class="panel">
+   <div class="big">4.4<small> / 5</small></div>
+   <div class="stars" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.6l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.5l-5.9 3.1 1.2-6.5L2.5 9.5l6.6-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.6l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.5l-5.9 3.1 1.2-6.5L2.5 9.5l6.6-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.6l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.5l-5.9 3.1 1.2-6.5L2.5 9.5l6.6-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.6l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.5l-5.9 3.1 1.2-6.5L2.5 9.5l6.6-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.6l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.5l-5.9 3.1 1.2-6.5L2.5 9.5l6.6-.9z"/></svg></div>
+   <p>51 homeowners have reviewed Charles Sharp Roofing and Carpentry on Google. On the live site, your newest reviews show here automatically.</p>
+  </div>
+  <div class="panel" id="area">
+   <h2 style="font-size:28px">Serving Jonesboro and nearby</h2>
+   <p>Not sure if we cover your street? Call and we'll tell you straight away.</p>
+   <div class="towns"><span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Jonesboro</span><span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Greater Jonesboro</span><span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Surrounding AR towns</span></div>
+  </div>
  </div>
-</div></section>
+</section>
 
-<section id="area" style="padding-top:0"><div class="wrap">
- <div class="area">
-  <div><span class="eyebrow" style="color:#ffc94d">Service area</span><h2 style="margin-top:12px">Proudly serving Jonesboro and nearby.</h2><p>Not sure if we cover your street? Give us a call and we'll tell you straight away.</p></div>
-  <div class="chips"><span>Jonesboro</span><span>Greater Jonesboro</span><span>AR area</span><span>Nearby towns</span></div>
+<section class="final">
+ <div class="wrap">
+  <h2>Need a roofer in Jonesboro?</h2>
+  <p class="lede">Call now or request a free estimate online.</p>
+  <a class="phone" href="tel:+18709354278">(870) 935-4278</a>
+  <div class="ctas" style="justify-content:center"><a class="btn btn-main" href="#estimate">Get a free estimate</a></div>
  </div>
-</div></section>
+</section>
+</main>
 
-<section class="cta"><div class="wrap">
- <h2>Worried about your roof?</h2>
- <p>Get a free, honest inspection from a local team.</p>
- <a class="phone" href="tel:+18709354278">(870) 935-4278</a>
- <a href="#quote" class="btn btn-primary">Book my free inspection →</a>
-</div></section>
+<footer>
+ <div class="wrap foot">
+  <div><b>Charles Sharp Roofing and Carpentry</b><br>Jonesboro, AR<br><a href="tel:+18709354278">(870) 935-4278</a></div>
+  <div>© 2026 Charles Sharp Roofing and Carpentry<br>Design preview by Kris</div>
+ </div>
+</footer>
 
-<footer><div class="wrap foot">
- <div><b style="color:var(--ink)">Charles Sharp Roofing and Carpentry</b><br>Jonesboro, AR</div>
- <div>© 2026 Charles Sharp Roofing and Carpentry. Design preview by Kris.</div>
-</div></footer>
-
-<a href="tel:+18709354278" class="btn btn-primary mobile-call">📞 Call (870) 935-4278 for a free inspection</a>
+<a class="btn btn-main mobile-call" href="tel:+18709354278"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call (870) 935-4278</a>
+<script>
+document.querySelectorAll('.compare input').forEach(function(r){var c=r.closest('.compare');function u(){c.style.setProperty('--pos',r.value+'%')}r.addEventListener('input',u);u();});
+</script>
 </body>
 </html>
